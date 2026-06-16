@@ -9,111 +9,114 @@ const PrivacyPolicy = () => {
         <Link to="/">
           <Button variant="ghost" className="mb-8 gap-2">
             <ArrowLeft className="w-4 h-4" />
-            Back to Home
+            Retour à l’accueil
           </Button>
         </Link>
 
         <div className="max-w-4xl mx-auto">
           <h1 className="font-serif text-4xl md:text-5xl font-bold text-navy mb-4">
-            Privacy Policy
+            Politique de confidentialité
           </h1>
           <p className="text-muted-foreground mb-12">
-            Effective Date: January 1, 2026
+            Date d’entrée en vigueur : 1er janvier 2026
           </p>
 
           <div className="prose prose-lg max-w-none space-y-8">
             <section>
               <h2 className="font-serif text-2xl font-semibold text-navy mb-4">
-                Introduction and Scope
+                Introduction et portée
               </h2>
               <p className="text-foreground/80 leading-relaxed">
-                Zanoto AI Solutions ("the Company," "we," "us," or "our")
-                provides AI-powered automation for Moroccan businesses. This
-                Privacy Policy explains how we collect, use, store, and protect
-                personal data when you use our website or services. By using our
-                platform, you agree to the practices described in this policy.
+                Zanoto AI Solutions (« la Société », « nous », « notre » ou « nos »)
+                fournit une automatisation basée sur l’IA aux entreprises marocaines.
+                Cette politique de confidentialité explique comment nous collectons,
+                utilisons, stockons et protégeons les données personnelles lorsque vous
+                utilisez notre site web ou nos services. En utilisant notre plateforme,
+                vous acceptez les pratiques décrites dans cette politique.
               </p>
             </section>
 
             <section>
               <h2 className="font-serif text-2xl font-semibold text-navy mb-4">
-                Data Collection
+                Collecte de données
               </h2>
               <p className="text-foreground/80 leading-relaxed mb-4">
-                We collect information through direct input (contact forms,
-                booking requests), automated tracking technologies (cookies,
-                analytics), and our WhatsApp automation services. This may
-                include:
+                Nous collectons des informations via les formulaires de contact, les
+                demandes de réservation, les technologies de suivi automatisé (cookies,
+                analytiques) et nos services d’automatisation WhatsApp. Ces données
+                peuvent inclure :
               </p>
               <ul className="list-disc list-inside space-y-2 text-foreground/80">
                 <li>
-                  <strong>Identifying Information:</strong> full names, business
-                  names, and professional roles.
+                  <strong>Informations d’identification :</strong> nom complet, raison
+                  sociale et fonction professionnelle.
                 </li>
                 <li>
-                  <strong>Contact Data:</strong> email addresses, phone
-                  numbers, and business locations in Morocco.
+                  <strong>Données de contact :</strong> adresse e-mail, numéro de
+                  téléphone et localisation de l’entreprise au Maroc.
                 </li>
                 <li>
-                  <strong>Technical Metadata:</strong> IP addresses, browser
-                  type, device information, and usage patterns.
+                  <strong>Métadonnées techniques :</strong> adresse IP, type de
+                  navigateur, informations sur l’appareil et habitudes d’utilisation.
                 </li>
                 <li>
-                  <strong>Service Data:</strong> WhatsApp messages, documents,
-                  and appointment data processed through our automations.
+                  <strong>Données de service :</strong> messages WhatsApp, documents et
+                  données de rendez-vous traités via nos automatisations.
                 </li>
               </ul>
             </section>
 
             <section>
               <h2 className="font-serif text-2xl font-semibold text-navy mb-4">
-                How We Use Your Data
+                Utilisation de vos données
               </h2>
               <p className="text-foreground/80 leading-relaxed mb-4">
-                We process personal data to provide, maintain, and improve our
-                services, including:
+                Nous traitons les données personnelles pour fournir, maintenir et
+                améliorer nos services, notamment :
               </p>
               <ul className="list-disc list-inside space-y-2 text-foreground/80">
-                <li>Delivering WhatsApp lead capture and customer support automation.</li>
-                <li>Collecting, organizing, and storing documents on your behalf.</li>
-                <li>Sending appointment reminders and follow-up messages.</li>
-                <li>Providing customer support and service updates.</li>
-                <li>Complying with Moroccan legal and regulatory obligations.</li>
+                <li>Assurer la capture de leads et le support client sur WhatsApp.</li>
+                <li>Collecter, organiser et stocker des documents en votre nom.</li>
+                <li>Envoyer des rappels de rendez-vous et des messages de relance.</li>
+                <li>Fournir une assistance client et des mises à jour de service.</li>
+                <li>Respecter les obligations légales et réglementaires marocaines.</li>
               </ul>
             </section>
 
             <section>
               <h2 className="font-serif text-2xl font-semibold text-navy mb-4">
-                Information Sharing
+                Partage d’informations
               </h2>
               <p className="text-foreground/80 leading-relaxed">
-                We do not sell personal data. We share information only with
-                trusted service providers necessary to operate our platform, or
-                when required by Moroccan law or a valid legal request. All
-                service providers are contractually bound to protect your data.
+                Nous ne vendons pas de données personnelles. Nous ne partageons les
+                informations qu’avec des prestataires de confiance nécessaires au
+                fonctionnement de notre plateforme, ou lorsque la loi marocaine ou une
+                demande légale valide l’exige. Tous nos prestataires sont contractuellement
+                tenus de protéger vos données.
               </p>
             </section>
 
             <section>
               <h2 className="font-serif text-2xl font-semibold text-navy mb-4">
-                Security and Retention
+                Sécurité et conservation
               </h2>
               <p className="text-foreground/80 leading-relaxed">
-                We use industry-standard administrative, technical, and
-                physical safeguards to protect personal data. Data is retained
-                only as long as needed to provide our services or as required by
-                Moroccan law, including Law No. 09-08 on data protection.
+                Nous utilisons des garanties administratives, techniques et physiques
+                conformes aux normes de l’industrie pour protéger les données
+                personnelles. Les données sont conservées uniquement pendant la durée
+                nécessaire à la fourniture de nos services ou conformément à la loi
+                marocaine, y compris la loi n° 09-08 relative à la protection des données.
               </p>
             </section>
 
             <section>
               <h2 className="font-serif text-2xl font-semibold text-navy mb-4">
-                Your Rights
+                Vos droits
               </h2>
               <p className="text-foreground/80 leading-relaxed">
-                Depending on applicable law, you may have the right to access,
-                correct, or delete your personal data. For any privacy-related
-                requests, please contact{" "}
+                Selon la législation applicable, vous pouvez avoir le droit d’accéder à,
+                de corriger ou de supprimer vos données personnelles. Pour toute demande
+                relative à la confidentialité, veuillez contacter{" "}
                 <a
                   href="mailto:admin@zanotoai.com"
                   className="text-teal hover:underline"

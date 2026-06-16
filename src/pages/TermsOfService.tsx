@@ -9,112 +9,111 @@ const TermsOfService = () => {
         <Link to="/">
           <Button variant="ghost" className="mb-8 gap-2">
             <ArrowLeft className="w-4 h-4" />
-            Back to Home
+            Retour à l’accueil
           </Button>
         </Link>
 
         <div className="max-w-4xl mx-auto">
           <h1 className="font-serif text-4xl md:text-5xl font-bold text-navy mb-4">
-            Terms of Use
+            Conditions d’utilisation
           </h1>
           <p className="text-muted-foreground mb-12">
-            Effective Date: January 1, 2026
+            Date d’entrée en vigueur : 1er janvier 2026
           </p>
 
           <div className="prose prose-lg max-w-none space-y-8">
             <section>
               <h2 className="font-serif text-2xl font-semibold text-navy mb-4">
-                Agreement to Terms
+                Acceptation des conditions
               </h2>
               <p className="text-foreground/80 leading-relaxed">
-                These Terms of Use constitute a legally binding agreement
-                between you and Zanoto AI Solutions. By accessing or using our
-                website and services, you agree that you have read, understood,
-                and agree to be bound by these terms.
+                Les présentes conditions d’utilisation constituent un contrat juridiquement
+                contraignant entre vous et Zanoto AI Solutions. En accédant ou en utilisant
+                notre site web et nos services, vous reconnaissez avoir lu, compris et
+                accepté ces conditions dans leur intégralité.
               </p>
             </section>
 
             <section>
               <h2 className="font-serif text-2xl font-semibold text-navy mb-4">
-                Service Description
+                Description des services
               </h2>
               <p className="text-foreground/80 leading-relaxed mb-4">
-                Zanoto AI Solutions provides AI-powered automation tools for
-                Moroccan businesses, including WhatsApp lead capture, document
-                collection workflows, appointment booking, and customer
-                follow-up automation. You are granted a non-exclusive,
-                non-transferable right to use the services for your business
-                purposes. You agree not to:
+                Zanoto AI Solutions fournit des outils d’automatisation basés sur l’IA aux
+                entreprises marocaines, notamment la capture de leads WhatsApp, les
+                workflows de collecte de documents, la réservation de rendez-vous et
+                l’automatisation des relances client. Nous vous accordons un droit
+                d’utilisation non exclusif et non transférable de nos services à des fins
+                commerciales. Vous acceptez de ne pas :
               </p>
               <ul className="list-disc list-inside space-y-2 text-foreground/80">
                 <li>
-                  Reverse engineer, decompile, or attempt to derive the source
-                  code of our technology.
+                  Faire de l’ingénierie inverse, décompiler ou tenter de dériver le code
+                  source de notre technologie.
                 </li>
                 <li>
-                  Use our services to send spam, harassment, or unlawful
-                  content through WhatsApp or any other channel.
+                  Utiliser nos services pour envoyer du spam, du harcèlement ou tout
+                  contenu illicite via WhatsApp ou tout autre canal.
                 </li>
                 <li>
-                  Scrape, crawl, or use automated scripts to harvest data from
-                  our platform without written consent.
+                  Extraire, crawler ou utiliser des scripts automatisés pour récupérer des
+                  données de notre plateforme sans consentement écrit.
                 </li>
                 <li>
-                  Use the platform to process data in violation of Moroccan Law
-                  No. 09-08 or any other applicable data protection law.
+                  Utiliser la plateforme pour traiter des données en violation de la loi
+                  marocaine n° 09-08 ou de toute autre loi applicable sur la protection des
+                  données.
                 </li>
               </ul>
             </section>
 
             <section>
               <h2 className="font-serif text-2xl font-semibold text-navy mb-4">
-                Disclaimer
+                Clause de non-responsabilité
               </h2>
               <p className="text-foreground/80 leading-relaxed">
-                Our services are provided for business automation and
-                administrative support purposes only. Zanoto AI Solutions is
-                not a licensed professional advisor. Our AI tools do not
-                constitute legal, financial, or other professional
-                advice. You remain responsible for compliance with all laws and
-                regulations applicable to your business.
+                Nos services sont fournis à des fins d’automatisation commerciale et de
+                support administratif uniquement. Zanoto AI Solutions n’est pas un
+                conseiller professionnel agréé. Nos outils d’IA ne constituent pas des
+                conseils juridiques, financiers ou autres. Vous restez responsable du
+                respect de l’ensemble des lois et réglementations applicables à votre
+                activité.
               </p>
             </section>
 
             <section>
               <h2 className="font-serif text-2xl font-semibold text-navy mb-4">
-                Limitation of Liability
+                Limitation de responsabilité
               </h2>
               <p className="text-foreground/80 leading-relaxed">
-                To the maximum extent permitted by law, Zanoto AI Solutions
-                shall not be liable for any indirect, incidental, special, or
-                consequential damages resulting from the use or inability to
-                use our services. All services are provided "As Is" without
-                warranties of any kind, except as expressly stated in a signed
-                service agreement.
+                Dans la mesure maximale autorisée par la loi, Zanoto AI Solutions ne pourra
+                être tenu responsable des dommages indirects, accessoires, spéciaux ou
+                consécutifs résultant de l’utilisation ou de l’impossibilité d’utiliser nos
+                services. Tous les services sont fournis « en l’état » sans garantie
+                d’aucune sorte, sauf indication contraire dans un contrat de service signé.
               </p>
             </section>
 
             <section>
               <h2 className="font-serif text-2xl font-semibold text-navy mb-4">
-                Indemnification
+                Indemnisation
               </h2>
               <p className="text-foreground/80 leading-relaxed">
-                You agree to defend and indemnify Zanoto AI Solutions against
-                any claims, damages, or costs arising from your misuse of the
-                platform or your violation of these terms or the rights of any
-                third party.
+                Vous acceptez de défendre et d’indemniser Zanoto AI Solutions contre toute
+                réclamation, dommage ou coût découlant de votre mauvaise utilisation de la
+                plateforme, de votre violation des présentes conditions ou des droits d’un
+                tiers.
               </p>
             </section>
 
             <section>
               <h2 className="font-serif text-2xl font-semibold text-navy mb-4">
-                Governing Law
+                Droit applicable
               </h2>
               <p className="text-foreground/80 leading-relaxed">
-                These terms shall be governed by and construed in accordance
-                with the laws of the Kingdom of Morocco. Any disputes arising
-                under these terms shall be subject to the exclusive
-                jurisdiction of the courts of Morocco.
+                Les présentes conditions sont régies et interprétées conformément aux lois
+                du Royaume du Maroc. Tout litige découlant des présentes conditions sera
+                soumis à la compétence exclusive des tribunaux marocains.
               </p>
             </section>
           </div>

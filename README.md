@@ -1,17 +1,17 @@
 # zanotoai.com
 
-Morocco-focused marketing site for Zanoto AI — an AI automation agency for Moroccan SMBs.
+Site marketing de Zanoto AI destiné au marché marocain — une agence d’automatisation IA pour les PME marocaines.
 
-## Stack
+## Stack technique
 
 - Vite 5
 - React 18 + TypeScript
-- React Router (client-side routing)
+- React Router (routage côté client)
 - Tailwind CSS v3
 - shadcn/ui
 - TanStack Query
 
-## Getting started
+## Démarrage
 
 ```bash
 npm install
@@ -24,20 +24,20 @@ npm run dev
 npm run build
 ```
 
-## Deployment
+## Déploiement
 
-Configured for Vercel:
+Configuré pour Vercel :
 
-- Build command: `npm run build`
-- Output directory: `dist`
-- Framework preset: Vite
+- Commande de build : `npm run build`
+- Répertoire de sortie : `dist`
+- Presse framework : Vite
 
-## Rebrand notes
+## Notes de rebrand
 
-This site was converted from a US medical-practice template. All medical/HIPAA copy has been replaced with Moroccan SMB automation messaging focused on WhatsApp workflows, document collection, and appointment booking in Darija, French, and Arabic.
+Ce site a été converti à partir d’un modèle destiné au secteur médical américain. Tous les contenus médicaux et liés à la HIPAA ont été remplacés par une communication axée sur l’automatisation des PME marocaines, notamment les workflows WhatsApp, la collecte de documents et la prise de rendez-vous en darija, français et arabe.
 
-## Legal pages
+## Pages légales
 
-- `/privacy-policy`
-- `/terms-of-service`
-- `/data-protection`
+- `/privacy-policy` — Politique de confidentialité
+- `/terms-of-service` — Conditions d’utilisation
+- `/data-protection` — Protection des données
