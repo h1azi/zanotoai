@@ -2,9 +2,9 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, CheckCircle2 } from "lucide-react";
 
 const heroFeatures = [
-  "WhatsApp-first automation",
-  "Document collection on autopilot",
-  "Speaks Darija, French & Arabic",
+  "Automatisation centrée sur WhatsApp",
+  "Collecte de documents en pilote automatique",
+  "Parle darija, français et arabe",
 ];
 
 const HeroSection = () => {
@@ -31,9 +31,9 @@ const HeroSection = () => {
             className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground leading-tight mb-6 animate-fade-up"
             style={{ animationDelay: "0.1s" }}
           >
-            Your WhatsApp,{" "}
+            Votre WhatsApp,{" "}
             <span className="text-gradient-teal bg-gradient-to-r from-teal to-teal-light">
-              Turned Into a Sales Machine
+              transformé en machine à vendre
             </span>
           </h1>
 
@@ -41,7 +41,7 @@ const HeroSection = () => {
             className="text-lg md:text-xl text-primary-foreground/80 mb-8 leading-relaxed animate-fade-up max-w-2xl"
             style={{ animationDelay: "0.2s" }}
           >
-            Stop losing Moroccan customers to missed messages and paperwork delays.
+            Ne perdez plus de clients marocains à cause de messages manqués ou de retards administratifs.
             Zanoto AI automates WhatsApp conversations, document collection, and
             follow-ups — so you can focus on running your business.
           </p>
@@ -56,7 +56,7 @@ const HeroSection = () => {
               onClick={() => scrollToSection("#meeting")}
               className="group"
             >
-              Book a Free Demo
+              Réserver une démo gratuite
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
             <Button
@@ -64,7 +64,7 @@ const HeroSection = () => {
               size="lg"
               onClick={() => scrollToSection("#automations")}
             >
-              See How It Works
+              Voir comment ça marche
             </Button>
           </div>
 

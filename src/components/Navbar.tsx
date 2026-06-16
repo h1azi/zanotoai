@@ -3,9 +3,9 @@ import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const navItems = [
-  { label: "Automations", href: "#automations" },
-  { label: "About", href: "#about" },
-  { label: "Pricing", href: "#pricing" },
+  { label: "Automatisations", href: "#automations" },
+  { label: "À propos", href: "#about" },
+  { label: "Tarifs", href: "#pricing" },
 ];
 
 const Navbar = () => {
@@ -65,7 +65,7 @@ const Navbar = () => {
             size="default"
             onClick={() => scrollToSection("#meeting")}
           >
-            Book a Demo
+            Réserver une démo
           </Button>
         </div>
 
@@ -96,7 +96,7 @@ const Navbar = () => {
               className="mt-4"
               onClick={() => scrollToSection("#meeting")}
             >
-              Book a Demo
+              Réserver une démo
             </Button>
           </div>
         </div>

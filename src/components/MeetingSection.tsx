@@ -2,10 +2,10 @@ import { useEffect } from "react";
 import { Calendar, CheckCircle } from "lucide-react";
 
 const meetingBenefits = [
-  "15-minute no-pressure discovery session",
-  "Learn how WhatsApp automation fits your business",
-  "Get answers to all your questions",
-  "Receive a custom automation proposal",
+  "Session de découverte de 15 minutes, sans engagement",
+  "Découvrez comment l’automatisation WhatsApp s’adapte à votre entreprise",
+  "Obtenez des réponses à toutes vos questions",
+  "Recevez une proposition d’automatisation personnalisée",
 ];
 
 const MeetingSection = () => {
@@ -30,11 +30,11 @@ const MeetingSection = () => {
         <div className="max-w-4xl mx-auto text-center">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent/20 text-accent-foreground text-sm font-medium mb-6 backdrop-blur-sm border border-accent/30">
             <Calendar className="w-4 h-4" />
-            Book Your Session
+            Réserver votre session
           </div>
 
           <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-primary-foreground mb-6">
-            Ready to Automate Your Business?
+            Prêt à automatiser votre entreprise ?
           </h2>
 
           <p className="text-xl text-primary-foreground/80 mb-10 max-w-2xl mx-auto">
@@ -64,7 +64,7 @@ const MeetingSection = () => {
           />
 
           <p className="text-primary-foreground/60 text-sm mt-6">
-            No commitment required • Takes just 2 minutes to schedule
+            Aucun engagement requis · Planification en 2 minutes seulement
           </p>
         </div>
       </div>

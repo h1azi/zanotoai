@@ -4,20 +4,20 @@ import { Link } from "react-router-dom";
 
 const footerLinks = {
   product: [
-    { label: "WhatsApp Lead Capture", href: "#automations" },
-    { label: "Document Collection", href: "#automations" },
+    { label: "Capture de leads WhatsApp", href: "#automations" },
+    { label: "Collecte de documents", href: "#automations" },
     { label: "Appointment Booking", href: "#automations" },
-    { label: "Pricing", href: "#pricing" },
+    { label: "Tarifs", href: "#pricing" },
   ],
   company: [
-    { label: "About Us", href: "#about" },
-    { label: "Founding Clients", href: "#founding" },
+    { label: "À propos de nous", href: "#about" },
+    { label: "Clients fondateurs", href: "#founding" },
     { label: "Contact", href: "#meeting" },
   ],
   legal: [
-    { label: "Privacy Policy", href: "/privacy-policy" },
-    { label: "Terms of Service", href: "/terms-of-service" },
-    { label: "Data Protection", href: "/data-protection" },
+    { label: "Politique de confidentialité", href: "/privacy-policy" },
+    { label: "Conditions d’utilisation", href: "/terms-of-service" },
+    { label: "Protection des données", href: "/data-protection" },
   ],
 };
 
@@ -40,10 +40,10 @@ const Footer = () => {
             <div className="flex items-center gap-4">
               <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-accent/20 backdrop-blur-sm border border-accent/30">
                 <Shield className="w-5 h-5 text-teal" />
-                <span className="font-semibold text-sm">14-Day No-Stress Trial</span>
+                <span className="font-semibold text-sm">Essai sans stress de 14 jours</span>
               </div>
               <p className="text-primary-foreground/80 hidden sm:block">
-                Experience the full power of Zanoto AI risk-free
+                Découvrez tout le potentiel de Zanoto AI sans risque
               </p>
             </div>
             <Button
@@ -52,7 +52,7 @@ const Footer = () => {
               className="group"
               onClick={() => scrollToSection("#meeting")}
             >
-              Get Started
+              Commencer
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
           </div>
@@ -82,9 +82,9 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Product Links */}
+          {/* Produit Links */}
           <div>
-            <h4 className="font-semibold mb-4">Product</h4>
+            <h4 className="font-semibold mb-4">Produit</h4>
             <ul className="space-y-3">
               {footerLinks.product.map((link) => (
                 <li key={link.label}>
@@ -99,9 +99,9 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Company Links */}
+          {/* Entreprise Links */}
           <div>
-            <h4 className="font-semibold mb-4">Company</h4>
+            <h4 className="font-semibold mb-4">Entreprise</h4>
             <ul className="space-y-3">
               {footerLinks.company.map((link) => (
                 <li key={link.label}>
@@ -116,9 +116,9 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Legal Links */}
+          {/* Mentions légales Links */}
           <div>
-            <h4 className="font-semibold mb-4">Legal</h4>
+            <h4 className="font-semibold mb-4">Mentions légales</h4>
             <ul className="space-y-3">
               {footerLinks.legal.map((link) => (
                 <li key={link.label}>
@@ -140,7 +140,7 @@ const Footer = () => {
         <div className="container mx-auto px-6 py-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-primary-foreground/60 text-sm">
-              © {new Date().getFullYear()} Zanoto AI. All rights reserved.
+              © {new Date().getFullYear()} Zanoto AI. Tous droits réservés.
             </p>
           </div>
         </div>

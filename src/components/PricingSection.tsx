@@ -2,12 +2,12 @@ import { Check, Sparkles, Shield, Headphones } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const benefits = [
-  "Custom WhatsApp workflows for your business",
-  "Document collection & reminder automation",
-  "Appointment booking & calendar sync",
-  "Dedicated onboarding in Darija, French, or Arabic",
-  "Priority support from our Morocco-based team",
-  "Monthly optimization reviews & updates",
+  "Workflows WhatsApp personnalisés pour votre entreprise",
+  "Collecte de documents et relances automatiques",
+  "Réservation de rendez-vous et synchronisation d’agenda",
+  "Onboarding dédié en darija, français ou arabe",
+  "Support prioritaire par notre équipe basée au Maroc",
+  "Revue et mises à jour d’optimisation mensuelles",
 ];
 
 const PricingSection = () => {
@@ -23,10 +23,10 @@ const PricingSection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="inline-block px-4 py-1.5 rounded-full bg-teal-subtle text-accent text-sm font-semibold mb-4">
-            Pricing
+            Tarifs
           </span>
           <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
-            Automation That Pays for Itself
+            Une automatisation qui s’autofinance
           </h2>
           <p className="text-lg text-muted-foreground">
             Invest in a system that captures more leads, chases fewer documents,
@@ -40,10 +40,10 @@ const PricingSection = () => {
             <div className="bg-gradient-hero p-8 md:p-12 text-center">
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent/20 text-accent-foreground text-sm font-medium mb-6 backdrop-blur-sm">
                 <Sparkles className="w-4 h-4" />
-                Made for Moroccan SMBs
+                Conçu pour les PME marocaines
               </div>
               <h3 className="font-serif text-2xl md:text-3xl font-bold text-primary-foreground mb-4">
-                Custom Automation Solutions
+                Solutions d’automatisation sur mesure
               </h3>
               <p className="text-primary-foreground/80 max-w-xl mx-auto">
                 Every business is different. We build a tailored WhatsApp and
@@ -61,7 +61,7 @@ const PricingSection = () => {
                       <Shield className="w-5 h-5 text-primary-foreground" />
                     </div>
                     <h4 className="font-semibold text-foreground">
-                      Automation Build & Activation
+                      Construction et activation de l’automatisation
                     </h4>
                   </div>
                   <p className="text-muted-foreground text-sm leading-relaxed">
@@ -78,7 +78,7 @@ const PricingSection = () => {
                       <Headphones className="w-5 h-5 text-accent-foreground" />
                     </div>
                     <h4 className="font-semibold text-foreground">
-                      Ongoing Support & Maintenance
+                      Support et maintenance continus
                     </h4>
                   </div>
                   <p className="text-muted-foreground text-sm leading-relaxed mb-3">
@@ -86,10 +86,10 @@ const PricingSection = () => {
                     automation keeps getting better.
                   </p>
                   <p className="text-accent font-bold text-lg">
-                    Starting at 2,500 MAD/month
+                    À partir de 2 500 MAD/mois
                   </p>
                   <p className="text-muted-foreground text-xs">
-                    for core WhatsApp workflows
+                    pour les workflows WhatsApp essentiels
                   </p>
                 </div>
               </div>
@@ -109,10 +109,10 @@ const PricingSection = () => {
               {/* CTA */}
               <div className="text-center">
                 <Button variant="teal" size="lg" onClick={scrollToMeeting}>
-                  Schedule a Discovery Call
+                  Planifier un appel de découverte
                 </Button>
                 <p className="text-muted-foreground text-sm mt-4">
-                  Get a custom quote based on your business needs
+                  Obtenez un devis personnalisé selon les besoins de votre entreprise
                 </p>
               </div>
             </div>

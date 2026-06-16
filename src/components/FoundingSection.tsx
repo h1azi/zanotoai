@@ -4,21 +4,21 @@ import { Button } from "@/components/ui/button";
 const perks = [
   {
     icon: Sparkles,
-    title: "Free Setup",
+    title: "Configuration gratuite",
     description:
-      "We configure your WhatsApp automation, document flows, and booking workflow at no implementation cost.",
+      "Nous configurons votre automatisation WhatsApp, vos flux de documents et votre workflow de réservation sans frais de mise en œuvre.",
   },
   {
     icon: Lock,
-    title: "Rate Lock Guarantee",
+    title: "Garantie de tarif bloqué",
     description:
-      "Your monthly support rate is locked in forever — it never increases as we grow.",
+      "Votre tarif de support mensuel est bloqué à vie — il n’augmente jamais, même à mesure que nous grandissons.",
   },
   {
     icon: Users,
-    title: "Direct Access",
+    title: "Accès direct",
     description:
-      "Work directly with our team. No support tickets, no waiting — just fast, personal help.",
+      "Travaillez directement avec notre équipe. Pas de tickets de support, pas d’attente — juste une aide rapide et personnalisée.",
   },
 ];
 
@@ -37,10 +37,10 @@ const FoundingSection = () => {
           {/* Header */}
           <div className="text-center mb-16">
             <span className="inline-block px-4 py-1.5 rounded-full bg-teal-subtle text-accent text-sm font-semibold mb-4">
-              Limited Availability
+              Disponibilité limitée
             </span>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
-              Become a Founding Client
+              Devenez un client fondateur
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               We are onboarding our first 5 founding businesses in Morocco. In
@@ -58,7 +58,7 @@ const FoundingSection = () => {
                 ))}
               </span>
               <span className="text-accent font-semibold text-sm">
-                5 founding spots remaining
+                5 places fondatrices disponibles
               </span>
             </div>
           </div>
@@ -89,11 +89,11 @@ const FoundingSection = () => {
               onClick={scrollToMeeting}
               className="group"
             >
-              Claim a Founding Spot
+              Réserver une place fondatrice
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
             <p className="text-muted-foreground text-sm mt-4">
-              15-minute call · No commitment · Spots are first-come, first-served
+              Appel de 15 minutes · Sans engagement · Places limitées
             </p>
           </div>
         </div>

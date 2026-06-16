@@ -3,27 +3,27 @@ import { MessageCircle, FileCheck, Globe, Users } from "lucide-react";
 const values = [
   {
     icon: MessageCircle,
-    title: "WhatsApp-First",
+    title: "WhatsApp d’abord",
     description:
-      "Moroccans live on WhatsApp. Every automation we build starts where your customers already are.",
+      "Les Marocains vivent sur WhatsApp. Chaque automatisation que nous construisons commence là où se trouvent déjà vos clients.",
   },
   {
     icon: FileCheck,
-    title: "Document Flows That Work",
+    title: "Des flux de documents qui fonctionnent",
     description:
-      "Stop chasing clients for files. We turn document collection into a simple WhatsApp conversation.",
+      "Arrêtez de courir après vos clients pour obtenir des fichiers. Nous transformons la collecte de documents en une simple conversation WhatsApp.",
   },
   {
     icon: Globe,
-    title: "Built for Local Languages",
+    title: "Conçu pour les langues locales",
     description:
-      "Fluent automation in Darija, French, and Modern Standard Arabic — the way your customers actually talk.",
+      "Une automatisation fluide en darija, français et arabe littéral — la façon dont vos clients parlent réellement.",
   },
   {
     icon: Users,
-    title: "Empowering Moroccan Teams",
+    title: "Renforcer les équipes marocaines",
     description:
-      "We don’t replace your people — we remove the busywork so they can focus on sales and service.",
+      "Nous ne remplaçons pas vos collaborateurs — nous éliminons les tâches fastidieuses pour qu’ils puissent se concentrer sur la vente et le service.",
   },
 ];
 
@@ -35,11 +35,11 @@ const AboutSection = () => {
           {/* Story Side */}
           <div>
             <span className="inline-block px-4 py-1.5 rounded-full bg-teal-subtle text-accent text-sm font-semibold mb-4">
-              About Us
+              À propos de nous
             </span>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
-              Automation Built for{" "}
-              <span className="text-accent">Moroccan Business Reality</span>
+              Une automatisation conçue pour{" "}
+              <span className="text-accent">la réalité des entreprises marocaines</span>
             </h2>
             <div className="space-y-4 text-lg text-muted-foreground leading-relaxed">
               <p>

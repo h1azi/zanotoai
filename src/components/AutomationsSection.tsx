@@ -13,44 +13,44 @@ interface AutomationTab {
 const automations: AutomationTab[] = [
   {
     id: "whatsapp",
-    title: "WhatsApp Lead Capture",
-    subtitle: "Never Miss a Prospect",
+    title: "Capture de leads WhatsApp",
+    subtitle: "Ne manquez plus aucun prospect",
     description:
-      "When a customer messages your business on WhatsApp, our AI instantly qualifies them, answers common questions, and books the next step — even while you sleep.",
+      "Lorsqu’un client envoie un message à votre entreprise sur WhatsApp, notre IA le qualifie instantanément, répond aux questions courantes et planifie la prochaine étape — même pendant votre sommeil.",
     icon: MessageSquare,
     animationSteps: [
-      "New WhatsApp message received...",
-      "AI greets in Darija or French...",
-      "Qualifies need and budget...",
-      "Books appointment or sends quote!",
+      "Nouveau message WhatsApp reçu...",
+      "L’IA salue en darija ou en français...",
+      "Qualifie le besoin et le budget...",
+      "Prend rendez-vous ou envoie un devis !",
     ],
   },
   {
     id: "documents",
-    title: "Document Collection",
-    subtitle: "Stop Chasing Paperwork",
+    title: "Collecte de documents",
+    subtitle: "Arrêtez de courir après les documents",
     description:
-      "Automatically request, remind, and organize documents from clients via WhatsApp. ID cards, contracts, invoices, photos — collected and filed without manual follow-up.",
+      "Demandez, rappelez et organisez automatiquement les documents de vos clients via WhatsApp. Cartes d’identité, contrats, factures, photos — collectés et classés sans relance manuelle.",
     icon: FileText,
     animationSteps: [
-      "Request sent on WhatsApp...",
-      "Client uploads document...",
-      "AI validates and renames file...",
-      "Saved to your dashboard instantly!",
+      "Demande envoyée sur WhatsApp...",
+      "Le client télécharge le document...",
+      "L’IA valide et renomme le fichier...",
+      "Enregistré sur votre tableau de bord instantanément !",
     ],
   },
   {
     id: "booking",
-    title: "Appointment & Service Booking",
-    subtitle: "Fill Your Calendar Faster",
+    title: "Prise de rendez-vous et réservation de services",
+    subtitle: "Remplissez votre agenda plus rapidement",
     description:
-      "Let customers check availability and book appointments directly through WhatsApp. Syncs with your calendar and sends automatic reminders to reduce no-shows.",
+      "Permettez à vos clients de consulter les disponibilités et de réserver directement via WhatsApp. Synchronisation avec votre agenda et envoi de rappels automatiques pour réduire les absences.",
     icon: CalendarCheck,
     animationSteps: [
-      "Customer asks for a slot...",
-      "AI checks live availability...",
-      "Confirms booking in seconds...",
-      "Sends reminder before visit!",
+      "Le client demande un créneau...",
+      "L’IA vérifie les disponibilités en temps réel...",
+      "Confirme la réservation en quelques secondes...",
+      "Envoie un rappel avant la visite !",
     ],
   },
 ];
@@ -81,10 +81,10 @@ const AutomationsSection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="inline-block px-4 py-1.5 rounded-full bg-teal-subtle text-accent text-sm font-semibold mb-4">
-            The Automations
+            Les automatisations
           </span>
           <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
-            Built for How Moroccan Businesses Work
+            Conçu pour le fonctionnement des entreprises marocaines
           </h2>
           <p className="text-lg text-muted-foreground">
             See how Zanoto AI handles the repetitive conversations and admin tasks
@@ -131,15 +131,15 @@ const AutomationsSection = () => {
             <div className="flex flex-wrap gap-4">
               <div className="flex items-center gap-2 text-foreground">
                 <CheckCircle className="w-5 h-5 text-accent" />
-                <span>No coding required</span>
+                <span>Aucun code requis</span>
               </div>
               <div className="flex items-center gap-2 text-foreground">
                 <CheckCircle className="w-5 h-5 text-accent" />
-                <span>Works with WhatsApp Business</span>
+                <span>Fonctionne avec WhatsApp Business</span>
               </div>
               <div className="flex items-center gap-2 text-foreground">
                 <CheckCircle className="w-5 h-5 text-accent" />
-                <span>Multilingual: Darija, French, Arabic</span>
+                <span>Multilingue : darija, français, arabe</span>
               </div>
             </div>
           </div>
