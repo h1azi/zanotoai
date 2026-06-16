@@ -71,8 +71,8 @@ const Footer = () => {
               <span className="font-serif text-xl font-semibold">Zanoto AI</span>
             </div>
             <p className="text-primary-foreground/70 mb-6 max-w-sm leading-relaxed">
-              AI automation for Moroccan businesses. We turn WhatsApp into your
-              best sales and support channel.
+              Automatisation IA pour les entreprises marocaines. Nous transformons WhatsApp en
+              votre meilleur canal de vente et de support.
             </p>
             <div className="space-y-3">
               <div className="flex items-center gap-3 text-primary-foreground/70">

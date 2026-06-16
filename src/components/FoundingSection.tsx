@@ -43,9 +43,9 @@ const FoundingSection = () => {
               Devenez un client fondateur
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              We are onboarding our first 5 founding businesses in Morocco. In
-              exchange for early feedback, you get free setup and a rate that
-              never increases.
+              Nous intégrons nos 5 premières entreprises fondatrices au Maroc. En
+              échange de vos retours précoces, vous bénéficiez d’une configuration gratuite et d’un tarif qui
+              n’augmentera jamais.
             </p>
           </div>
 

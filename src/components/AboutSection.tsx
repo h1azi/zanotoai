@@ -43,21 +43,21 @@ const AboutSection = () => {
             </h2>
             <div className="space-y-4 text-lg text-muted-foreground leading-relaxed">
               <p>
-                We started Zanoto AI because we saw Moroccan business owners
-                drowning in manual follow-ups, missed WhatsApp leads, and
-                endless document chasing. Sales were slipping through the cracks
-                while teams spent hours on repetitive admin.
+                Nous avons créé Zanoto AI parce que nous avons vu des chefs d’entreprise marocains
+                se noyer sous les relances manuelles, les leads WhatsApp manqués et la
+                course interminable aux documents. Des ventes passaient à travers les mailles du filet
+                pendant que les équipes passaient des heures sur une administration répétitive.
               </p>
               <p>
-                Our mission is simple: use practical AI to handle the
-                conversations, reminders, and paperwork that slow Moroccan SMBs
-                down. We believe the best technology disappears into your
-                workflow and just gets results.
+                Notre mission est simple : utiliser une IA pragmatique pour gérer les
+                conversations, les rappels et la paperasse qui ralentissent les PME marocaines.
+                Nous croyons que la meilleure technologie s’efface dans votre
+                workflow et produit simplement des résultats.
               </p>
               <p className="font-semibold text-foreground">
-                Today we help service businesses, clinics, real-estate agencies,
-                salons, and e-commerce sellers across Morocco turn WhatsApp into
-                their most reliable growth channel.
+                Aujourd’hui, nous aidons les entreprises de services, les cliniques, les agences immobilières,
+                les salons et les vendeurs en ligne à travers le Maroc à transformer WhatsApp en
+                leur canal de croissance le plus fiable.
               </p>
             </div>
           </div>

@@ -38,9 +38,9 @@ const MeetingSection = () => {
           </h2>
 
           <p className="text-xl text-primary-foreground/80 mb-10 max-w-2xl mx-auto">
-            Schedule a free discovery call with our team. We’ll discuss your
-            workflows, show you what’s possible on WhatsApp, and propose a
-            tailored automation plan for your Moroccan business.
+            Planifiez un appel de découverte gratuit avec notre équipe. Nous examinerons vos
+            workflows, vous montrerons ce qui est possible sur WhatsApp et vous proposerons un
+            plan d’automatisation adapté à votre entreprise marocaine.
           </p>
 
           <div className="flex flex-wrap justify-center gap-6 mb-12">

@@ -29,8 +29,8 @@ const PricingSection = () => {
             Une automatisation qui s’autofinance
           </h2>
           <p className="text-lg text-muted-foreground">
-            Invest in a system that captures more leads, chases fewer documents,
-            and keeps your calendar full — from day one.
+            Investissez dans un système qui capte plus de leads, réduit la course aux documents
+            et maintient votre agenda plein — dès le premier jour.
           </p>
         </div>
 
@@ -46,8 +46,8 @@ const PricingSection = () => {
                 Solutions d’automatisation sur mesure
               </h3>
               <p className="text-primary-foreground/80 max-w-xl mx-auto">
-                Every business is different. We build a tailored WhatsApp and
-                document automation stack around your exact workflows and goals.
+                Chaque entreprise est différente. Nous construisons une stack d’automatisation WhatsApp et
+                de documents sur mesure, adaptée à vos workflows et objectifs précis.
               </p>
             </div>
 
@@ -65,9 +65,9 @@ const PricingSection = () => {
                     </h4>
                   </div>
                   <p className="text-muted-foreground text-sm leading-relaxed">
-                    A one-time setup fee covers custom workflow engineering,
-                    WhatsApp Business integration, document collection setup,
-                    and personalized onboarding in your language.
+                    Des frais de configuration uniques couvrent l’ingénierie des workflows personnalisés,
+                    l’intégration WhatsApp Business, la mise en place de la collecte de documents
+                    et l’onboarding personnalisé dans votre langue.
                   </p>
                 </div>
 
@@ -82,8 +82,8 @@ const PricingSection = () => {
                     </h4>
                   </div>
                   <p className="text-muted-foreground text-sm leading-relaxed mb-3">
-                    Continuous monitoring, improvements, and optimization so your
-                    automation keeps getting better.
+                    Surveillance continue, améliorations et optimisation pour que votre
+                    automatisation devienne toujours plus performante.
                   </p>
                   <p className="text-accent font-bold text-lg">
                     À partir de 2 500 MAD/mois

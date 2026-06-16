@@ -87,8 +87,8 @@ const AutomationsSection = () => {
             Conçu pour le fonctionnement des entreprises marocaines
           </h2>
           <p className="text-lg text-muted-foreground">
-            See how Zanoto AI handles the repetitive conversations and admin tasks
-            that slow down Moroccan SMBs every day.
+            Découvrez comment Zanoto AI gère les conversations répétitives et les tâches administratives
+            qui ralentissent les PME marocaines au quotidien.
           </p>
         </div>
 

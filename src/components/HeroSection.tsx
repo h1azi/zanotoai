@@ -42,8 +42,8 @@ const HeroSection = () => {
             style={{ animationDelay: "0.2s" }}
           >
             Ne perdez plus de clients marocains à cause de messages manqués ou de retards administratifs.
-            Zanoto AI automates WhatsApp conversations, document collection, and
-            follow-ups — so you can focus on running your business.
+            Zanoto AI automatise les conversations WhatsApp, la collecte de documents et les
+            relances — pour que vous puissiez vous concentrer sur la gestion de votre entreprise.
           </p>
 
           <div
